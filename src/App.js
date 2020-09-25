@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <Provider store={store}>     
         <Router>         
-          <Route exact path="/home"  component={HomePage} />
+          <Route exact path="/"  component={HomePage} />
           <Route path="/new" component={NotesPage} />            
         </Router>        
       </Provider>

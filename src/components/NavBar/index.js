@@ -54,7 +54,7 @@ const NavBar = ({ name, password,setUser }) => {
         <NavLink       
           className={styles["link"]}
           activeClassName={styles["active-link"]}
-          to="/home"
+          to="/"
         >
           Главная
         </NavLink>
