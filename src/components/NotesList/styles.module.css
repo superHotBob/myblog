@@ -1,0 +1,51 @@
+.news {
+  border: 1px solid #ddd;
+  margin: 20px ;
+ 
+}
+.add_news {
+  border: 1px solid #ddd;
+  margin: 20px ;
+  padding: 10px;
+}
+.add_news input {
+  border: none;
+  display: block;
+  width: 40%;
+  margin: 0 0 20px;
+  background-color: #ddd;
+  padding: 10px 20px;
+}
+.news_find {
+  margin: 20px;
+  font: 600 20px/30px "Arial", sans-serif;
+}
+p span {  
+  padding: 0 10px;
+}
+.news_find input {
+  border: none;
+  display: block;
+  width: 20%;
+  margin: 0 0 20px;
+  background-color: #ddd;
+  padding: 10px 20px;
+}
+.news p:first-child {
+  margin: 0; 
+  padding:10px 20px;
+  font-weight: 600;
+  background-color: #ddd;
+}
+.news p:nth-of-type(2) {
+  margin: 0; 
+  padding: 20px;
+  display: block;
+  background-color: #ffff;
+}
+.button_add_news {
+  margin: 20px;
+  padding: 10px 20px;
+  width: 200px;
+  display: block;
+}

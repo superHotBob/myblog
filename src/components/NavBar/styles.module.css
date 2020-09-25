@@ -1,0 +1,72 @@
+.nav-bar {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.link {
+  display: block;
+  width: 33.3%;
+  text-align: center;
+  padding: 20px;
+  background: #ecf5f5;
+  color: black;
+  z-index: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover {
+  background: #7e9494;
+  color: white;
+}
+
+.active-link {
+  background: #7e9494;
+  color: white;
+  box-shadow: none;
+  z-index: 0;
+  border-bottom: none;
+}
+.enter {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0
+
+}
+.enter div {
+  width: 300px;
+  height: fit-content;
+  text-align: center;
+  padding: 10px;
+  background-color: snow;
+  border: 1px solid #7e9494;
+  margin: 20vh auto; 
+}
+.enter input {
+  display: block;
+  width: 20vw;
+  margin: 20px auto;
+  padding: 10px;
+}
+.enter input[type="button"] {
+  width: 21.5vw;
+}
+.enter span {
+  float: right;
+  background-color: #7e9494;
+  cursor: pointer;
+  padding: 0 10px;
+}
+div.error {
+  padding: 100px 50px;
+}
