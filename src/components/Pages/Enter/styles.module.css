@@ -61,11 +61,14 @@
 .enter input[type="button"] {
   width: 21.5vw;
 }
-.enter span {
+.tomain {
   float: right;
   background-color: #7e9494;
   cursor: pointer;
   padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: -10px -10px  0 0;
 }
 div.error {
   padding: 100px 50px;

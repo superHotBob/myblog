@@ -1,0 +1,68 @@
+h3 {
+  margin: 2vh auto;
+  text-align: center;
+}
+.hello {
+  width: 90vw;
+  height: fit-content;
+  margin: 2vw auto;
+  
+ 
+}
+.hello div {
+  text-align: center;
+  cursor: pointer;
+  width: 20vw;
+  height: 20vw;
+
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin: 1vw;
+  display: inline-block;
+  border: 1px solid #fff;
+  font-size: 2.3vw;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 80%;
+  padding-top:10vh;
+  position: relative;
+}
+.hello div p span {
+  font-size: 16px;
+}
+.hello div p  {
+  font-size: 16px;
+  position: absolute;
+  top: -40px;
+  opacity: 0;
+}
+
+.hello div:hover {
+  border-top: 1px solid #000
+}
+.hello .link, button {
+  width: 100%;
+  display: none;
+  font-size: 2vw;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: salmon;  
+  border: none;
+  position: absolute;
+  bottom: 0;
+}
+.hello .link:hover, button:hover {
+  background-color: red;
+}
+.hello div:hover .link {
+  display: block;
+}
+.hello div:hover p {
+  opacity: 1;
+  transition: all 0.5s;
+}
+button {
+  display: block;
+  
+}

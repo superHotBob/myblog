@@ -1,4 +1,9 @@
 .hello {
-  margin: 30vh auto;
+  margin: 0 auto;
   text-align: center;
+}
+.hello b {
+  background-color: darkgrey;
+  padding: 10px;
+  color: azure;
 }

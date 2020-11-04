@@ -3,12 +3,12 @@
   margin: 20px ;
  
 }
-.add_news {
+.add_new {
   border: 1px solid #ddd;
   margin: 20px ;
   padding: 10px;
 }
-.add_news input {
+.add_new input {
   border: none;
   display: block;
   width: 40%;
@@ -31,9 +31,13 @@ p span {
   background-color: #ddd;
   padding: 10px 20px;
 }
-.news p:first-child {
+.news span {
+  margin: 5px 20px;
+  display: inline-block;
+}
+.news > p {
   margin: 0; 
-  padding:10px 20px;
+  padding: 10px 20px;
   font-weight: 600;
   background-color: #ddd;
 }
@@ -45,7 +49,29 @@ p span {
 }
 .button_add_news {
   margin: 20px;
-  padding: 10px 20px;
-  width: 200px;
+  padding: 5px;
+  position: static;
+  width: 25vw;
+  font-size: 20px;
   display: block;
+}
+.button_send_news {
+  margin: 20px 0;
+  padding: 5px;
+  position: static;
+  width: 25vw;
+  font-size: 20px;
+  display: block;
+}
+
+.del_new { 
+  padding: 7px 20px;
+  width: 100px;  
+  float: right;
+  background-color: red;
+  color: #ffff;
+}
+textarea {
+  padding: 10px;
+  width: 50%;
 }

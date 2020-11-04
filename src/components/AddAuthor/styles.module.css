@@ -1,0 +1,55 @@
+.add_author {
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 70%;
+    background-color: antiquewhite;
+}
+.add_author span {
+    display: block;
+    float: left;
+    padding: 2px 10px;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.add_author span:hover {
+    background-color: #ddd;
+}
+.add_new {
+  border: 1px solid #ddd;
+  margin: 20px  auto;
+  width: 80%;
+  padding: 10px;
+
+}
+ 
+.add_new  h2,
+.add_author h2  {
+    text-align: center;
+}
+
+ .add_new input,
+ .add_new textarea {
+  border: none;
+  display: block;
+  width: 80%;
+  font-size: 20px ;
+  background-color: #ffff;
+  padding: 10px 20px;
+  margin: 20px auto;
+}
+
+.button_add_news {
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 95%;
+ 
+  font-size: 20px ;
+  cursor: pointer;
+  background-color: #ddd;
+}
+.button_add_news:hover {
+    background-color: silver;
+}
+

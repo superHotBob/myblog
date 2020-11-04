@@ -1,32 +1,36 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route } from "react-router";
 import { Provider } from "react-redux";
-// import { HashRouter } from "react-router-dom";
-
 import { createStore } from 'redux';
-import { BrowserRouter as Router } from "react-router-dom";
-
 import HomePage from "./components/Pages/Home";
-
-import NotesPage from "./components/Pages/Notes";
+import NotesList from "./components/NotesList";
 import rootReducer from "./redux/reducers/notes";
+import Enter from "./components/Pages/Enter";
+import Author from "./components/Pages/Author";
+
 
 
 
 const store = createStore(rootReducer);
-
-
-class App extends Component {
-  render() {
+const App = () => {
+ 
     return (
-      <Provider store={store}>     
-        <Router>         
-          <Route exact path="/"  component={HomePage} />
-          <Route path="/new" component={NotesPage} />            
-        </Router>        
+      <Provider store={store}>                        
+            <Route  path="/main">
+              <HomePage />
+            </Route> 
+            <Route path="/new/:author" component={NotesList}/>
+              
+           
+            <Route path="/author">
+              <Author />
+            </Route>          
+            <Route exact path="/">
+              <Enter />
+            </Route>  
+                   
       </Provider>
     );
-  }
-}
+};
 
 export default App;
